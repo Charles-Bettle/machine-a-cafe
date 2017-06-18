@@ -122,28 +122,28 @@
      font-size: .8em;
      width: 100px;
      height: 30px;
-     padding-top: 7px; /*permet le centrage vertical*/
      text-align: center;
      color: #fff;
      background: #fd5062;
      border-radius: 5px;
      position: relative;
      top:-510px;
-     left: 85px;
+     left: -60px;
+     line-height: 0;
 }
 
 .btn-annuler{
      font-size: .8em;
      width: 100px;
      height: 30px;
-     padding-top: 7px; /*permet le centrage vertical*/
      text-align: center;
      color: #fff;
      background: #00aeef;
      border-radius: 5px;
      position: relative;
-     top:-540px;
-     left: 215px;
+     top:-550px;
+     left: 60px;
+     line-height: 0;
 }
 
 .panel-top{

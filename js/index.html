@@ -14,39 +14,39 @@
 		<div class="machine-a-cafe">
 			<img src="../img/machine-a-cafe-back.png" alt="">
 			<img src="../img/machine a café v2.png" alt="">
-			<img src="../img/tasse-a-cafe.png" alt="">
+			<img class="displayedImg" src="../img/tasse-a-cafe.png" alt="">
 			<button class="btn-confirmation">CONFIRMER</button>
 			<button class="btn-annuler">ANNULER</button>
 		</div>
 		<div class="panel-center-control">
-			<p>FAITE VOTRE CHOIX</p>
+			<p id="choixBoisson">FAITE VOTRE CHOIX</p>
 		</div>
 		<div class="panel-top">
 			<div class="panel-top-top">
-				<button class="btn-top-left-cafe" onclick="cafeLongChoix()">
-					<h1>CAFE LONG</h1>
+				<button id="selectionCafeButton_0" class="btn-top-left-cafe" onclick="cafeChoix(0)">
+					<h1 id="selectionCafe_0" onclick="delayedAlert();">CAFE LONG</h1>
 				</button>
-				<button class="btn-top-right-cafe"onclick="cappuccinoChoix()">
-					<h1>CAPPUCCINO</h1>
+				<button id="selectionCafeButton_2" class="btn-top-right-cafe" onclick="cafeChoix(2)">
+					<h1 id="selectionCafe_2">CAPPUCCINO</h1>
 				</button>
 			</div>
 				<div class="panel-top-bottom">
-					<button class="btn-bottom-left-cafe">
-						<h1>ESPRESSO</h1>
+					<button  id="selectionCafeButton_1" class="btn-bottom-left-cafe" onclick="cafeChoix(1)">
+						<h1 id="selectionCafe_1">ESPRESSO</h1>
 					</button>
-					<button class="btn-bottom-right-cafe">
-						<h1>NOISETTE</h1>
+					<button id="selectionCafeButton_3" class="btn-bottom-right-cafe" onclick="cafeChoix(3)">
+						<h1 id="selectionCafe_3">NOISETTE</h1>
 					</button>
 				<div class="panel-sucre">
 					<div class="btn-bottom-sucre">
 						<h2>SUCRE</h2>
-					    <button class="btn-sucre-choix-neg">-</button>
-						<button class="btn-sucre-choix-sup">+</button>	
-						<button class="btn-sucre"></button>
-						<button class="btn-sucre"></button>
-						<button class="btn-sucre"></button>
-						<button class="btn-sucre"></button>
-						<button class="btn-sucre"></button>
+						<button class="btn-sucre-choix-neg" onclick="diminuerSucre()">-</button>
+						<button class="btn-sucre-choix-sup" onclick="augmenterSucre()">+</button>
+						<button id="niveauSucre_0" class="btn-sucre"></button>
+						<button id="niveauSucre_1" class="btn-sucre"></button>
+						<button id="niveauSucre_2" class="btn-sucre"></button>
+						<button id="niveauSucre_3" class="btn-sucre"></button>
+						<button id="niveauSucre_4" class="btn-sucre"></button>
 					</div>	
 				</div>		
 			</div>

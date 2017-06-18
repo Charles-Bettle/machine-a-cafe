@@ -196,6 +196,7 @@
 	width:20px;
 	text-decoration:none;
 	text-align:center;
+     outline-style: none;
 }
 
 .btn-top-left-cafe:hover {
@@ -269,6 +270,7 @@
     height: 20px;
     margin: 0;
     line-height: 0;
+    outline-style: none;
 }
 
 .btn-sucre-choix-sup{
@@ -278,6 +280,7 @@
     height: 20px;
     margin: 0 15px 0 0;
     line-height: 0;
+    outline-style: none;
 }
 
 .btn-sucre{
@@ -324,6 +327,13 @@
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
 	background-color:#c62d1f;
 }
+
+.displayedImg{
+    display: none;
+}
+
+
+
 
 /*====================== RESPONSIV ======================*/
 
